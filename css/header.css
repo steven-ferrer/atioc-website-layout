@@ -1,0 +1,29 @@
+header{
+    background-color: white;
+    padding: 1rem;
+    align-items: center;
+    display: flex;
+    height: 225px;
+    font-size: 1.25rem;
+    background-image: url('../img/atioc.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+@media (max-width: 41.25rem){
+    header{
+        font-size: 1rem;       
+    }
+}
+
+header .logo{
+    max-height: 100%;
+    max-width: 100%;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+header .text{
+    padding: 0.5rem;
+    -webkit-text-stroke:  1px white;
+}

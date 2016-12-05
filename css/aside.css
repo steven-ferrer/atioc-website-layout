@@ -1,0 +1,13 @@
+aside{
+    display: table-cell;
+    width: 20%;
+    padding-top: 0;
+}
+
+
+@media (max-width: 41.25em){
+    aside{
+        display: block;
+        width: 100%;
+    }
+}

@@ -1,0 +1,49 @@
+*{
+    border-radius: 0.25em;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E9E9E9;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* content wrapper */
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+@media (max-width: 41.25em){
+    .container{
+        width: 95%;
+    }
+}
+
+.hidden{
+    display: none;
+}
+
+/* pallete 
+
+orange
+HEX:FF9900
+RGB: 255,153,0
+
+route 66 - almost black
+HEX:424242
+RGB:66,66,66
+
+steady grey
+HEX: E9E9E9
+RGB: 233,233,233
+
+BC - grey
+HEX: BCBCBC
+GRB: 188,188,188
+
+lightblue
+HEX: 2299BB
+RGB: 50,153, 187
+*/

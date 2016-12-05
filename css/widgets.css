@@ -1,0 +1,98 @@
+/* buttons, inputs and stuffs */
+
+
+/* buttons */
+.btn{
+    /* main settings for a button */
+}
+
+.btn.spicy{
+    /* red */
+}
+
+.btn.mint{
+    /* green */
+}
+
+.btn.cool{
+    /* light blue*/
+}
+
+.btn.aqua{
+    /* blue */
+}
+/* end buttons */
+
+/* panel */
+div.panel{
+    background-color: white;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+div.panel:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+div.panel > .header{
+    margin: 0;
+    padding: 10px;
+    color: #E9E9E9;
+    background: -webkit-linear-gradient(top,  #424242 65%,#BCBCBC 100%);
+    background-color: #424242;
+    text-align: center;
+    font-weight: bold;
+}
+
+div.panel > .content{
+    margin: 0;
+    padding: 0.25em;
+    text-align: justify;
+}
+/* end panel */
+
+
+
+/* gallery img 
+    from w3schools
+*/
+
+.gallery{
+    padding: 0.5rem;
+    display: flex;
+    align-items: left;
+    flex: 0.5;
+}
+
+.gallery .img{
+    margin: 5px;
+    width: 300px;
+    min-width: auto;
+    min-height: auto;
+    border: 1px solid #ccc;
+}
+
+.gallery .img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.gallery .img img{
+    width: 100%;
+    height: auto;
+}
+
+
+.gallery .caption{
+    padding: 0.25rem;
+    text-align: center;
+}
+/* end gallery img */
+
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
