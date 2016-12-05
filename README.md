@@ -1,2 +1,2 @@
 # atioc-website-layout
-Simple website layout
+Simple responsive website layout
