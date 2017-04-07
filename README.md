@@ -3,4 +3,5 @@ Simple responsive website layout
 
 Screenshot:
 
-![Sample Homepage](samplehome1.jpg?raw=true "Homepage")
+![Homepage](samplehome1.jpg?raw=true "Homepage")
+![Contact Us](contactus.jpg?raw=true "Contact Us")
